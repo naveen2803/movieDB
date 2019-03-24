@@ -8,10 +8,6 @@ class API {
         return service.getRestClient(Config.HOME_URL).get('/search/multi', config);
     }
 
-    getSearchItems(config) {
-        return service.getRestClient().get('/export/exportCsv', config);
-    }
-
     getMovieDetils(config, id) {
         return service.getRestClient().get(`movie/${id}`, config);
     }
