@@ -1,0 +1,135 @@
+.contentContainerStyle {
+    background: #081E2A;
+}
+
+.subHeadingStyle {
+    color: #E3F4FC;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/*
+  ##Device = Laptops, Desktops
+*/
+@media (min-width: 768px){
+    .posterImageContainerStyle {
+        border-radius: 7px;
+        position: relative;
+        top: -90px;
+        left: 40px;
+    }
+
+    .imageStyle {
+        border-radius: 7px;
+        float: left;
+    }
+
+    .outerClass {
+        margin: auto;
+        width: 780px;
+    }
+
+    .titleStyle1 {
+        font-size: 28px;
+        line-height: 30px;
+        font-family: "Roboto";
+        width: 500px;
+        word-wrap: break-word;
+        color: #E3F4FC;
+        padding-left: 20px;
+        padding-top: 100px;
+        display: inline-block;
+    }
+
+    .dateRatingstyle {
+        color: #B8D8E6;
+        font-size: 12px;
+        line-height: 21px;
+        font-family: "Roboto";
+        float: left;
+        margin-left: 22px;
+    }
+
+    .detailsOverviewStyle {
+        color: #B8D8E6;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: bold;
+        font-family: "Roboto";
+        padding-top: 10px;
+    }
+
+    .descriptionStyle {
+        color: #9FBBC7;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Roboto";
+    }
+
+    .descriptionContainer {
+        padding-left: 220px;
+    }
+}
+
+/*
+  ##Device = Mobile
+*/
+@media (max-width: 480px){
+    .posterImageContainerStyle {
+        border-radius: 7px;
+        position: relative;
+        top: -90px;
+        left: 40px;
+    }
+
+    .imageStyle {
+        border-radius: 7px;
+        float: left;
+    }
+
+    .outerClass {
+        margin: auto;
+        width: 780px;
+    }
+
+    .titleStyle1 {
+        font-size: 28px;
+        line-height: 30px;
+        font-family: "Roboto";
+        width: 500px;
+        word-wrap: break-word;
+        color: #E3F4FC;
+        padding-left: 20px;
+        padding-top: 100px;
+        display: inline-block;
+    }
+
+    .dateRatingstyle {
+        color: #B8D8E6;
+        font-size: 12px;
+        line-height: 21px;
+        font-family: "Roboto";
+        float: left;
+        margin-left: 22px;
+    }
+
+    .detailsOverviewStyle {
+        color: #B8D8E6;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: bold;
+        font-family: "Roboto";
+        padding-top: 10px;
+    }
+
+    .descriptionStyle {
+        color: #9FBBC7;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Roboto";
+    }
+
+    .descriptionContainer {
+        padding-left: 220px;
+    }
+}

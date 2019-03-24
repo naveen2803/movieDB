@@ -1,0 +1,107 @@
+/*
+  ##Device = Laptops, Desktops
+*/
+@media (min-width: 768px){
+    .headerStyle {
+        background: radial-gradient(312.01px at 53.46% -21.35%, rgba(5, 112, 172, 0.46) 0%, rgba(8, 27, 35, 0) 100%);
+        height: 200px;
+    }
+
+    .outerDiv {
+        background: #081E2A;
+        height: 200px;
+    }
+
+    .logoStyle {
+        position: absolute;
+        height: 13%;
+        width: 13%;
+        left: 45%;
+        top: 7%;
+    }
+
+    .line1 {
+        position: absolute;
+        left: 36%;
+        top: -15%;
+    }
+    .line2 {
+        position: absolute;
+        right: 30%;
+        top: -15%;
+    }
+    .line3 {
+        position: absolute;
+        left: 36%;
+        top: -9%;
+    }
+    .line4 {
+        position: absolute;
+        right: 30%;
+        top: -8%;
+    }
+    .line5 {
+        position: absolute;
+        left: 32%;
+        top: 9%;
+    }
+    .line6 {
+        position: absolute;
+        right: 32%;
+        top: 11%;
+    }
+}
+
+/*
+  ##Device = Mobile
+*/
+@media (max-width: 480px){
+    .headerStyle {
+        background: radial-gradient(312.01px at 53.46% -21.35%, rgba(5, 112, 172, 0.46) 0%, rgba(8, 27, 35, 0) 100%);
+        height: 150px;
+    }
+
+    .outerDiv {
+        background: #081E2A;
+        height: 150px;
+    }
+
+    .logoStyle {
+        position: absolute;
+        height: 25%;
+        width: 25%;
+        left: 40%;
+        top: 0%;
+    }
+
+    .line1 {
+        position: absolute;
+        left: 8%;
+        top: -11%;
+    }
+    .line2 {
+        position: absolute;
+        right: -10%;
+        top: -11%;
+    }
+    .line3 {
+        position: absolute;
+        left: 14%;
+        top: -8%;
+    }
+    .line4 {
+        position: absolute;
+        left: 8%;
+        top: -11%;
+    }
+    .line5 {
+        position: absolute;
+        left: 8%;
+        top: -11%;
+    }
+    .line6 {
+        position: absolute;
+        left: 8%;
+        top: -11%;
+    }
+}

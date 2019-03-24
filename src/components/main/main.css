@@ -1,0 +1,49 @@
+.searchContainer {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.placeHolderStyle {
+    color: #01D277;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.searchIconStyle {
+    position: relative;
+    top: -33px;
+    float: right;
+    padding-right: 20px;
+    margin-left: -33px;
+}
+
+.textBoxStyle {
+    padding-right: 40px !important;
+}
+
+.tileContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.popularMovieTitle {
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #E3F4FC;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Roboto";
+}
+
+.tileItemStyle {
+    padding: 20px;
+}
+
+.contentContainerStyle {
+    background: #081E2A;
+}
